@@ -1,0 +1,17 @@
+.container{
+    border: 1px solid black;
+    border-radius: 1.6em;
+   padding: 2em;
+    margin: 2.2em;
+    margin-top: 3.6em;
+}
+.container .images{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: space-evenly   ;
+}
+
+.container .images img{
+width: 10em;
+}

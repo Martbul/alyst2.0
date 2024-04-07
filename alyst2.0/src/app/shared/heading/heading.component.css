@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border: 1px solid black;
+    border-radius: 1.6em;
+   padding: 6em;
+    margin: 2.2em;
+    margin-top: 6em;
+    gap: 2em;
+}
+
+.container .mini-heading{
+    border: 1px solid  #111827;
+    padding: 0.4em;
+    border-radius: 2em;
+    background-color: rgb(0, 63, 118);
+    color: white;
+}
+
+.container .core-offer h1{
+    
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        text-align: center;
+        padding: 0 4em;
+        
+}
+
+.container .core-offer h4{
+    
+    color: white;
+    font-size: 1.2em;
+    padding: 0 14em;
+    text-align: center;
+    
+}
+
+
+
+.container .buttons .special{
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    padding: 0.6em;
+    margin: 1em;
+    border-radius: 0.8em;
+    color: white;
+    font-size: 1.5em;
+}
+
+.container .buttons  .normal{
+border: 2px solid rgb(255, 255, 255);
+padding: 0.6em;
+    margin: 1em;
+    border-radius: 0.8em;
+    color: white;
+    font-size: 1.5em;
+}
