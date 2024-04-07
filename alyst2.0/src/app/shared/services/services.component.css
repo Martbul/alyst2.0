@@ -1,0 +1,50 @@
+.container{
+    border: 1px solid black;
+    border-radius: 1.6em;
+   padding: 2em;
+   padding-left: 5em;
+    margin: 2.2em;
+    margin-top: 3.6em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container .headings .small-heading h3{
+    color: white;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(7, 27, 27);
+    display: inline;
+    padding: 0.6em;
+}
+
+.container .headings .heading h1{
+color: white;
+font-size: 3.4em;
+margin-top: 0.4em;
+}
+
+.container .services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .services .card{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+   
+}
+.container .services .card h3{
+    font-size: 1.8em;
+    color:white;
+}
+
+.container .services .card p{
+     max-width: 25em;
+     font-size: 1.2em;
+     color: rgb(125, 125, 125);
+}

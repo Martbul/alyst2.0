@@ -7,7 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { PartnersComponent } from './shared/partners/partners.component';
-import { ServicesComponent } from './services/services.component';
+import { ServicesComponent } from './shared/services/services.component';
 import { WhyUsComponent } from './shared/why-us/why-us.component';
 import { TestemonialsComponent } from './testemonials/testemonials.component';
 import { ComparisonComponent } from './comparison/comparison.component';
