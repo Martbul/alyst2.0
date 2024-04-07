@@ -1,0 +1,60 @@
+.container{
+    border: 1px solid black;
+    border-radius: 1.6em;
+   padding: 2em;
+    margin: 2.2em;
+    margin-top: 3.6em;
+}
+
+.container .top{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 3em;
+    padding-right: 14em;
+    margin-bottom: 12em;
+    margin-top: 4em;
+}
+
+
+.container .top .small-heading h3{
+    color: white;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(7, 27, 27);
+    display: inline;
+    padding: 0.6em;
+}
+
+.container .top .big-heading h1{
+    color:white;
+    font-size: 3.6em;
+}
+.container .top .big-heading h5{
+    color: rgb(125, 125, 125);
+    font-size: 1.4em;
+}
+
+
+.container .bot{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+    gap: 4em;
+}
+
+
+.container .bot h2{
+color: white;
+font-size: 1.8em;
+}
+
+.container .bot h5{
+    color: rgb(125, 125, 125);
+font-size: 1.2em;
+margin-top: 0.8em;
+}
+.container .bot i{
+    margin-bottom: 1em;
+}
