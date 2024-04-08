@@ -5,10 +5,12 @@
      border: 1px solid black;
     border-radius: 1.6em;
    padding: 6em;
-    margin: 2.2em;
-    margin-top: 6em;
+   
     gap: 2em;
+    
 }
+
+
 
 .container .mini-heading{
     border: 1px solid  #111827;

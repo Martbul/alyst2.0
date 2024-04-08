@@ -15,8 +15,9 @@ import { OurworkComponent } from './ourwork/ourwork.component';
 import { SubscriptionStepsComponent } from './subscription-steps/subscription-steps.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { FaqComponent } from './faq/faq.component';
-import { BookAcallComponent } from './book-acall/book-acall.component';
+
 import { HeadingComponent } from './shared/heading/heading.component';
+import { BookAcallComponent } from './shared/book-acall/book-acall.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { HeadingComponent } from './shared/heading/heading.component';
     PricingComponent,
     FaqComponent,
     BookAcallComponent
+
   ],
   imports: [
     BrowserModule,

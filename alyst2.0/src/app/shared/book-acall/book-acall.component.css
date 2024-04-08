@@ -1,0 +1,34 @@
+.container{
+    border: 1px solid #000000;
+    border-radius: 1.6em;
+    padding: 6em;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.container h1{
+    color: white;
+    font-size: 3.8em;
+}
+.container p{
+    color: rgb(150, 150, 150);
+    font-size: 1.8em;
+    max-width: 28em;
+    text-align: center;
+}
+.container  .special{
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    padding: 0.6em;
+    margin: 1em;
+    border-radius: 0.8em;
+    color: white;
+    font-size: 1.5em;
+}
+
+.container  .special:hover{
+    transition: ease-out 0.1s;
+    border: 6px solid rgb(0, 45, 82);
+}
