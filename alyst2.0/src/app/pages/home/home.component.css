@@ -7,7 +7,10 @@
    
 }
 
-.home-container .element{
-   margin: 0 auto;
-   min-width: 100%;
+
+    .home-container .element{
+   display: flex;
+   justify-content:center;
+        min-width: 130em;
+
 }
