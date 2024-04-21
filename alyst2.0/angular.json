@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "alyst2": {
+    "alyst2.0": {
       "projectType": "application",
       "schematics": {},
       "root": "",
